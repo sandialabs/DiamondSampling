@@ -329,7 +329,7 @@ if ata
     vals = vals ./ 2;
 end
 
-if asqr
+if asqr && ~wedges,
     vals = vals ./ 2;
 end
 

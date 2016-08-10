@@ -1,20 +1,7 @@
 %% Test correctness of A'*B code
 
-% For 'asqr', A = K x K
-% For 'ata', A = K x M
-% For 'atb', A = K x M, B = K x N
-
-% K = 10; M = 5; N = 5; p = .5;
-% nsamples = 1e2;
-% producttype = 'atb';
-% matrixtype = 'binary';
-% type = 'diamond';
-% [relerr,A,B,X] = check_atb(K,M,N,p,nsamples,producttype,matrixtype,type);
-% relerr
-% full(A'*B)
-% full(round(X))
-
-%% Make some plots
+%% Run both wedge and diamond sampling, make some plots to show
+%% error decreasing as nsamples increases
 
 producttype = 'asqr';
 matrixtype = 'binary';

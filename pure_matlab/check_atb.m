@@ -48,15 +48,10 @@ if ~isempty(find(Xbadvals,1))
     error('Invalid count in X!');
 end
 
-% if strcmp(producttype,'asqr') 
-%     ns = 4*nsamples;
-% elseif strcmp(producttype,'ata')
-%     ns = 2*nsamples;
-% else
-%     ns = nsamples;
-% end
 ns = nsamples;
 Xvals = full(X(P==1));
 Yvals = (info.sumw/ns) * Xvals;
 relerr = norm(Yvals-Evals)./norm(Evals);
 fprintf('Relative error = %g\n', relerr)
+
+end
