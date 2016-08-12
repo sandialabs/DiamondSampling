@@ -21,6 +21,7 @@ How do I run the code?
 --------
 
 There are two directories:
+
 * pure_matlab contains Matlab only code
 * mex_matlab contains C/C++ code and requires mex'ing to compile and run, but it is more efficient
 * Each directory has a README.txt file to help with setup and running
