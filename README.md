@@ -6,30 +6,17 @@ This software contains Matlab and C implementations for computing only the large
 
 To cite this work, please use:
 
-G. Ballard, T. G. Kolda, A. Pinar and C. Seshadhri, Diamond Sampling for Approximate Maximum All-pairs Dot-product (MAD) Search, 15th IEEE International Conference on Data Mining, ICDM '15, IEEE Computer Society, pp. 11-20, November 2015, [http://dx.doi.org/10.1109/ICDM.2015.46](http://dx.doi.org/10.1109/ICDM.2015.46).
+G. Ballard, T. G. Kolda, A. Pinar and C. Seshadhri, Diamond Sampling for Approximate Maximum All-pairs Dot-product (MAD) Search, 
+15th IEEE International Conference on Data Mining, ICDM '15, IEEE Computer Society, pp. 11-20, November 2015, [http://dx.doi.org/10.1109/ICDM.2015.46](http://dx.doi.org/10.1109/ICDM.2015.46).
 
-### What is this repository for? ###
+### How do I run the code? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+There are two directories
+* pure_matlab contains Matlab only code
+* mex_matlab contains C/C++ code and requires mex'ing to compile and run, but it is more efficient
+* Each directory has a README.txt file to help with setup and running
 
-### How do I get set up? ###
+### Questions? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Grey: ballard@wfu.edu
+* Tammy: tgkolda@sandia.gov
