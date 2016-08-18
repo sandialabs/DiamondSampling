@@ -26,6 +26,11 @@ There are two directories:
 * mex_matlab contains C/C++ code and requires mex'ing to compile and run, but it is more efficient
 * Each directory has a README.txt file to help with setup and running
 
+CSparse Library
+--------
+
+The C/C++ code makes use of the CSparse Library data structures and subroutines.  The full CSparse library is included with this distribution; see mex_matlab/CSparse/Doc/License.txt for License information.
+
 Questions?
 --------
 
